@@ -12,4 +12,4 @@ This seems to be because binaryen has a bunch of expressions chained using `,`. 
 <br />
 However, if we just take out one of the expressions and try building again, it builds without segfaulting:
 
-`bun build mini-repro2.js --compile --outfile out`
+`bun build mini-repro-2.js --compile --outfile out`
